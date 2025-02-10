@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #about{
+            margin-top: 130px;
+            background-color: #3f415ab8;
+            padding: 30px;
+            color: white;
+            width: 100vw;
+        }
+        .contact{
+         background-color: #2626279c;
+         justify-self: center;
+         text-align: center;
+         line-height: 30px;
+         border: none;
+         width: 600px;
+         height: 400px;
+         border-radius: 3px;
+         padding-top: 20px;
+         padding-bottom: 50px;
+         margin-bottom: 20px;
+         margin-top: 40px;
+     }
+     fieldset input{
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 90px;
+    padding-right:90px;
+    margin-top: 30px;
+}
+input::placeholder{
+    border-radius: 3px;
+}
+.service:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.submit{
+    background-color:rgb(190, 209, 255) ;
+    border: none;
+    border-radius:3px ;
+    padding: 7px;
+}
+.submit:hover{
+    border: 2px solid grey;
+    cursor: pointer;
+}
+.submit:active{
+    background-color: #333;
+}
+footer{
+    margin-bottom: 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AuraFit</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At FitLife, we believe in a holistic approach to fitness. Our team of certified trainers and nutritionists are here to guide you on your journey to a healthier lifestyle.</p>
+    </section>
+    <fieldset class="contact">
+        <h1>Contact us</h1>
+        
+        <input id="" type="text" placeholder="Email or phone number">
+        <br><br>
+        <input type="password" placeholder="Enter your password">
+        <br><br>
+        <textarea id="message" name="message" required placeholder="any suggestions"></textarea><br><br>
+            <button class="submit ">Send Message</button>          
+        </fieldset>
+    <footer>
+        <i>&copy; 2023 FitLife. All rights reserved.</i>
+    </footer>
+</body>
+</html>
